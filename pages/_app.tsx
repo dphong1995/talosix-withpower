@@ -30,8 +30,8 @@ export default function App({Component, pageProps}: AppProps) {
             "cb58e805-e425-461b-a737-d6bacbbf5cce"
         );
         (window as any).amazon_connect("styles", {
-            openChat: {color: "#ffffff", backgroundColor: "#48acf0"},
-            closeChat: {color: "#ffffff", backgroundColor: "#48acf0"},
+            openChat: {color: "#ffffff", backgroundColor: "black"},
+            closeChat: {color: "#ffffff", backgroundColor: "black"},
         });
         (window as any).amazon_connect(
             "snippetId",
